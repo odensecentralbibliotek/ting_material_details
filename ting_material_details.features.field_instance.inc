@@ -64,7 +64,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 38,
@@ -125,7 +125,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 37,
@@ -186,7 +186,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 21,
@@ -247,7 +247,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 23,
@@ -308,7 +308,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 27,
@@ -369,7 +369,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 34,
@@ -430,7 +430,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 14,
@@ -491,7 +491,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 19,
@@ -552,7 +552,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 31,
@@ -613,7 +613,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 15,
@@ -674,7 +674,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 16,
@@ -735,7 +735,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 24,
@@ -797,7 +797,7 @@ function ting_material_details_field_default_field_instances() {
     ),
     'widget' => array(
       'active' => 0,
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 38,
@@ -858,7 +858,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 35,
@@ -919,7 +919,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 26,
@@ -980,7 +980,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 30,
@@ -1041,7 +1041,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 29,
@@ -1102,7 +1102,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 36,
@@ -1163,7 +1163,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 28,
@@ -1224,7 +1224,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 22,
@@ -1285,7 +1285,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 17,
@@ -1346,7 +1346,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 20,
@@ -1407,7 +1407,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 18,
@@ -1468,7 +1468,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 25,
@@ -1529,7 +1529,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 13,
@@ -1590,7 +1590,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 32,
@@ -1651,7 +1651,7 @@ function ting_material_details_field_default_field_instances() {
       'user_register_form' => FALSE,
     ),
     'widget' => array(
-      'module' => 'virtual_field',
+      'module' => 'blackhole',
       'settings' => array(),
       'type' => 'hidden',
       'weight' => 33,
