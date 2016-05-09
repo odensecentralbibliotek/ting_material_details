@@ -381,9 +381,24 @@ function ting_material_details_field_formatter_view($entity_type, $entity, $fiel
     if ($val = ting_material_details_get_record_value($field['type'], $entity)) {
       switch ($display['type']) {
         case 'ting_details_single':
-          $element[$delta] = array(
-            '#markup' => is_array($val) ? implode(', ', $val) : $val,
-          );
+            if($field['type'] == 'ting_details_ispartof')
+            {
+                foreach($entity->relations as $relation)
+                {
+                    if($relation->type == 'dbcbib:isPartOfManifestation')
+                    {
+                        $element[$delta] = array(
+                            '#markup' => is_array($val) ? l(implode(', ', $val),'ting/object/' .$relation->uri) : l($val, 'ting/object/' . $relation->uri),
+                          );
+                    }
+                }
+            }
+            if(!isset($element[$delta]))
+            {
+                $element[$delta] = array(
+                    '#markup' => is_array($val) ? implode(', ', $val) : $val,
+                  );
+            }
           break;
         case 'ting_details_creator_search':
           if (!is_array($val)) {
@@ -408,6 +423,8 @@ function ting_material_details_field_formatter_view($entity_type, $entity, $fiel
 	$element[$delta] = array(
             '#markup' => implode(', ', $links),
           );
+        break;
+      default:
 	break;
       }
     }
